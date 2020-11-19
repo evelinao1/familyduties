@@ -1,0 +1,66 @@
+.bg-green {
+    background-color: green;
+    
+}
+header {
+    height: 100px;
+}
+
+footer{
+    height: 50px;
+    padding: 0;
+}
+.title{
+    width: 50%;
+    /* float: right; */
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+footer.container {
+    padding-top: 0;
+}
+footer > .row {
+    text-align: center;
+    position: relative;
+}
+.cap {
+    position: absolute;
+    top: -24px;
+    right: -12px;
+    
+}
+a {
+    margin-bottom: 20px;
+}
+/* img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: relative;
+  }
+  
+  img::after {
+    content: "";
+    background: url(../pic/images1.jpg);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  } */
